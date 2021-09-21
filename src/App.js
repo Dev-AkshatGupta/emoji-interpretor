@@ -21,7 +21,8 @@ export default function App() {
   }
 
   function emojiClickHandler(emoji) {
-    console.log(emoji);
+    var emojiInput = emojidictionary[emoji];
+    emojiOutput(emojiInput);
   }
 
   return (
@@ -34,7 +35,7 @@ export default function App() {
       {emojisWeKnow.map(function (emoji) {
         return (
           <span
-            onClick={() => emojiClickHandler}
+            onClick={() => emojiClickHandler(emoji)}
             key={emoji}
             style={{ fontSize: "3rem" }}
           >
