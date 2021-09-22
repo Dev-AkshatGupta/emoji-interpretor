@@ -5,7 +5,13 @@ var emojidictionary = {
   "😊": "smilingEmoji",
   "😀": "show me your teeth",
   "🤑": "money minded",
-  "🐷": "pig face"
+  "🐷": "pig face",
+  "🍇": "grapes",
+  "🍉": "water-melon",
+  "🍌": "banana",
+  "😎": "cool",
+  "😕": "confused face",
+  "😯": "hushed face"
 };
 var emojisWeKnow = Object.keys(emojidictionary);
 
